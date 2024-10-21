@@ -20,7 +20,7 @@ p {
   justify-content: space-between;
   align-items: center;
   margin: 20px auto;
-  max-width: 950px;
+  max-width: 960px;
 }
 
 .header-inner a {
@@ -70,14 +70,18 @@ img {
   padding: 10px;
   align-items: center;
   margin: 20px auto;
-  max-width: 950px;
+  max-width: 960px;
 }
 
 h2 {
   margin: 0;
-  padding: 50px 0 50px;
+  padding: 60px 0 40px;
   text-align: center;
   font-size: 34px;
+}
+
+p, li {
+  font-size: 18px;
 }
 
 /* 丸画像 */
@@ -89,6 +93,7 @@ h2 {
 
 /* プロフィール説明文 */
 .description {
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -104,20 +109,20 @@ h2 {
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
-  max-width: 950px;
+  max-width: 960px;
 }
 
 /* 画像と説明文 */
 .worksp {
   margin: 0 10px;
-  padding-bottom: 50px;
+  padding-bottom: 55px;
   width: 25%;
 }
 
 /* フッター */
 footer p {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 /*767px以下の表示内容 */
@@ -128,13 +133,8 @@ h1 {
 
 h2 {
     font-size: 28px;
+    padding: 30px 0 20px;
   }
-
-nav .menu {
-    padding-left: 0;
-    display: flex;
-    justify-content: center;
-}
 
 nav li {
   margin: 0 10px;
