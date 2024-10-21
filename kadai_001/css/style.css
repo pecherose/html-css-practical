@@ -6,8 +6,12 @@ body {
   padding: 0px;
   margin: 0px;
   font-family: "Not Sans JP", sans-serif;
+  font-size: 18px;
 }
 
+p {
+  margin: 0;
+}
 
 /* ヘッダー */
 .header-inner {
@@ -25,17 +29,17 @@ body {
   text-decoration: none;
 }
 
-p, li {
-  margin: 0;
-  font-size: 18px;
-}
 
-/* MyProfile */
+/* MyProfile文字 */
 h1 {
   font-size: 34px;
   margin: 0 0 0 20px;
   border: 1px solid #000000;
-  padding: 0 20px;
+  padding: 0px 20px;
+}
+
+.myprofile {
+  text-decoration: none;
 }
 
 /* ナビゲーションメニュー */
@@ -116,7 +120,7 @@ footer p {
   margin-bottom: 30px;
 }
 
-/* iPad768pxを基準、767px以下の表示内容 */
+/*767px以下の表示内容 */
 @media all and (max-width: 767px)  {
 h1 {
     font-size: 28px;
@@ -126,11 +130,17 @@ h2 {
     font-size: 28px;
   }
 
+nav .menu {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+}
+
 nav li {
   margin: 0 10px;
 }
 nav a {
-  font-size: 22px;
+  font-size: 21px;
 }
 
 .worksp {
@@ -140,4 +150,3 @@ nav a {
 }
 
 }
-
