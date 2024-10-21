@@ -41,6 +41,7 @@ h1 {
 /* ナビゲーションメニュー */
 nav .menu {
 display: flex;
+padding-left: 0;
 }
 
 nav li {
